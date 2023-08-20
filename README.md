@@ -45,7 +45,7 @@ optional arguments:
   -g, --g_addition      Add a guanine base to the 5' end
   -c, --cca_addition    Add CCA sequence to the 3' end
 ```
-### example (When typing a sequence on the CLI.)
+### Example (When typing a sequence on the CLI.)
 ```python
 python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA
 
@@ -55,7 +55,7 @@ python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCC
 #TGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCAC
 #Completed!!
 ```
-### example (When specifying a fasta file.)
+### Example (When specifying a fasta file.)
 ```python
 python ROCKET -d C:\Users\username\document\folder\data.fasta
 #Completed!!
