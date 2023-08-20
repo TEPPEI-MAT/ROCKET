@@ -26,7 +26,7 @@ ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGG
 ### if you need to add -1G, CCA end and precursor.
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA",g=True, c=True, p=True )
 ```
-* g, c and p correspond to addition of -1G, CCA end and precursor respectively.
+* `g`, `c` and `p` correspond to addition of `-1G`, `CCA end` and `precursor` respectively.
 
 
 ### CLI
@@ -60,5 +60,5 @@ python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCC
 python ROCKET -d C:\Users\username\document\folder\data.fasta
 #Completed!!
 ```
-* if you need to add -1G, CCA end and precursor, please use -g, -c and -p respectively.
-* if you need sequence longer than 100 oligos and less than 7 oligos, please use -M and -m.
+* if you need to add `-1G`, `CCA end` and `precursor`, please use `-g`, `-c` and `-p` respectively.
+* if you need sequence **longer than 100 oligos** and **less than 7 oligos**, please use `-M` and `-m`.
