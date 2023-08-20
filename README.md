@@ -8,7 +8,10 @@ ROCKET designed DNA oligonucleotide for in vitro transcription....
 ```python
 pypy3 -m pip ROCKET
 ```
-
+### Conda
+```python
+conda install -c biocinda ROCKET
+```
 
 
 ## Usage
@@ -17,10 +20,10 @@ pypy3 -m pip ROCKET
 ```python
 from ROCKET import ROCKET
 
-### just return Forward and Reverse primer. ###
+### just return Forward and Reverse primer.
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA")
 
-### if you need to add -1G, CCA end and precursor.(g, c and p correspond to -1G, CCA end and precursor respectively.) ###
+### if you need to add -1G, CCA end and precursor.(g, c and p correspond to -1G, CCA end and precursor respectively.)
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA",g=True, c=True, p=True )
 
 ```
@@ -29,7 +32,7 @@ ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGG
 ```
 usage:usage: ROCKET [-h] [-s --sequence] [-d --dir_path] [-M --maximum_primer] [-m --minimum_primer] [-p --precursor] [-g --g_addition] [-c --cca_addition]
 
-Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced in vitro Transcription
+Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced in vitro Transcription.
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -43,3 +46,18 @@ optional arguments:
 ```
 ### example
 ```python
+### When typing a sequence on the CLI.
+python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA
+
+#Forward
+#GCCTAATACGACTCACTATAGCCGGGGTGGTGTAGCCTGGTTAGCACAGGGGACTGTGGATCCCCTAGCCCGGGTTCAAATCCC
+#Reverse
+#TGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCAC
+```
+```python
+### When typing a sequence on the CLI.
+python ROCKET -d C:\Users\usename\document\folder\data.fasta
+
+```
+
+
