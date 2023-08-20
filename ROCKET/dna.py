@@ -1,6 +1,6 @@
 """DNA enthalpy and entropy change parameters."""
 
-from type import Comp, MultiBranch, BpEnergy, LoopEnergy, Energies
+from .type import Comp, MultiBranch, BpEnergy, LoopEnergy, Energies
 
 
 DNA_COMPLEMENT: Comp = {"A": "T", "T": "A", "G": "C", "C": "G", "N": "N"}
