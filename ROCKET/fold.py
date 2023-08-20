@@ -3,8 +3,8 @@
 import math
 from typing import List, Tuple
 
-from dna import DNA_ENERGIES
-from type import Energies, Cache
+from .dna import DNA_ENERGIES
+from .type import Energies, Cache
 
 
 class Struct:
