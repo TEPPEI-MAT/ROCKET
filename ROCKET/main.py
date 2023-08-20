@@ -1,7 +1,7 @@
 import math
-from dna import DNA_ENERGIES
+from .dna import DNA_ENERGIES
 from typing import List, Tuple, Union
-from fold import dg
+from .fold import dg
 import argparse
 from Bio import SeqIO
 import os.path
