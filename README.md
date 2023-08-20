@@ -23,11 +23,20 @@ import ROCKET
 ### just return Forward and Reverse primer.
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA")
 
+#>Forward
+#GCCTAATACGACTCACTATAGCCGGGGTGGTGTAGCCTGGTTAGCACAGGGGACTGTGGATCCCCTAGCCCGGGTTCAAATCCC
+#>Reverse
+#TGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCAC
+
 ### if you need to add -1G, CCA end and precursor.
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA",g=True, c=True, p=True )
+
+#>Forward
+#GCCTAATACGACTCACTATAGGGAGACCACAACGGTTTCCCTCTAGAGGCCGGGGTGGTGTAGCCTGGTTAGCACAGGGGACTGTGGATCCCCTAGC
+#>Reverse
+#TGGTGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCACAGTCCCCTGTGCTAAC
 ```
 * `g`, `c` and `p` correspond to addition of `-1G`, `CCA end` and `precursor` respectively.
-
 
 ### CLI
 ```
@@ -49,9 +58,9 @@ optional arguments:
 ```python
 python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA
 
-#Forward
+#>Forward
 #GCCTAATACGACTCACTATAGCCGGGGTGGTGTAGCCTGGTTAGCACAGGGGACTGTGGATCCCCTAGCCCGGGTTCAAATCCC
-#Reverse
+#>Reverse
 #TGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCAC
 #Completed!!
 ```
@@ -61,4 +70,4 @@ python ROCKET -d C:\Users\username\document\folder\data.fasta
 #Completed!!
 ```
 * if you need to add `-1G`, `CCA end` and `precursor`, please use `-g`, `-c` and `-p` respectively.
-* if you need sequence **longer than 100 oligos** and **less than 7 oligos**, please use `-M` and `-m`.
+* if you need DNA oligonucleotides **longer than 100 oligos** and **less than 7 oligos**, please use `-M` and `-m`.
