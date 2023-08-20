@@ -41,12 +41,12 @@ Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced i
 
 optional arguments:
   -h, --help            show this help message and exit
-  -s, --sequence       tRNA sequence to transcribe
-  -d, --dir_path       Path to fasta file (Output as 'output.txt' in the same directory)
-  -T, --maximum_tm     maximum Tm (default is 72 degrees C)
-  -t, --minimum_tm     minimum Tm (default is 68 degrees C)
+  -s, --sequence        tRNA sequence to transcribe
+  -d, --dir_path        Path to fasta file (Output as 'output.txt' in the same directory)
+  -T, --maximum_tm      maximum Tm (default is 72 degrees C)
+  -t, --minimum_tm      minimum Tm (default is 68 degrees C)
   -M, --maximum_primer  maximum length of primer (default is 100 nt)
-  -m, --minimum_primer minimum length of primer (default is 7 nt)
+  -m, --minimum_primer  minimum length of primer (default is 7 nt)
   -p, --precursor       Add precursor to the 5' end
   -g, --g_addition      Add a guanine base to the 5' end
   -c, --cca_addition    Add CCA sequence to the 3' end
