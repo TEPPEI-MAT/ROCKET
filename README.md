@@ -18,15 +18,16 @@ conda install -c biocinda ROCKET
 
 ### Python
 ```python
-from ROCKET import ROCKET
+import ROCKET
 
 ### just return Forward and Reverse primer.
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA")
 
-### if you need to add -1G, CCA end and precursor.(g, c and p correspond to -1G, CCA end and precursor respectively.)
+### if you need to add -1G, CCA end and precursor.
 ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA",g=True, c=True, p=True )
-
 ```
+* g, c and p correspond to addition of -1G, CCA end and precursor respectively.
+
 
 ### CLI
 ```
@@ -44,20 +45,20 @@ optional arguments:
   -g, --g_addition      Add a guanine base to the 5' end
   -c, --cca_addition    Add CCA sequence to the 3' end
 ```
-### example
+### example (When typing a sequence on the CLI.)
 ```python
-### When typing a sequence on the CLI.
 python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGGCCCCA
 
 #Forward
 #GCCTAATACGACTCACTATAGCCGGGGTGGTGTAGCCTGGTTAGCACAGGGGACTGTGGATCCCCTAGCCCGGGTTCAAATCCC
 #Reverse
 #TGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCAC
+#Completed!!
 ```
+### example (When specifying a fasta file.)
 ```python
-### When typing a sequence on the CLI.
-python ROCKET -d C:\Users\usename\document\folder\data.fasta
-
+python ROCKET -d C:\Users\username\document\folder\data.fasta
+#Completed!!
 ```
-
-
+* if you need to add -1G, CCA end and precursor, please use -g, -c and -p respectively.
+* if you need sequence longer than 100 oligos and less than 7 oligos, please use -M and -m.
