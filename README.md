@@ -1,2 +1,4 @@
 # ROCKET
-Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced in vitro Transcription
+Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced in vitro Transcription.
+
+
