@@ -6,7 +6,7 @@ ROCKET designed DNA oligonucleotide for in vitro transcription....
 
 ### Conda
 ```python
-conda install -c bioconda ROCKET
+
 ```
 
 ## Usage
