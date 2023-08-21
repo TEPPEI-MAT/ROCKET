@@ -1,4 +1,8 @@
-"""Predict nucleic acid secondary structure"""
+"""Predict nucleic acid secondary structure
+    Copyright (c) 2019 Lattice Automation
+    Released under the MIT license
+    https://opensource.org/licenses/mit-license.php
+"""
 
 import math
 from typing import List, Tuple
