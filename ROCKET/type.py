@@ -1,4 +1,8 @@
-"""Types shared between dna.py """
+"""Types shared between dna.py 
+    Copyright (c) 2019 Lattice Automation
+    Released under the MIT license
+    https://opensource.org/licenses/mit-license.php
+"""
 
 from typing import Dict, Optional, Tuple, List
 
