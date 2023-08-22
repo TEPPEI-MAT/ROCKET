@@ -30,7 +30,9 @@ ROCKET("GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCCCGGCCCCGG
 #TGGTGGGGCCGGGGCCGGGATTTGAACCCGGGCTAGGGGATCCACAGTCCCCTGTGCTAAC
 ```
 * `g`, `c` and `p` correspond to addition of `-1G`, `CCA end` and `precursor` respectively.
-
+* You can select length of oligonucleotide by using `min_nt` and `max_nt`.
+* Also using `min_tm` and `max_tm`, you can decide Tm of oligonucleotides yourself.
+ 
 ### CLI
 ```
 usage:usage: ROCKET [-h] [-s --sequence] [-d --dir_path] [-T maximum_tm] [-t minimum_tm] [-M --maximum_primer] [-m --minimum_primer] [-p --precursor] [-g --g_addition] [-c --cca_addition]
