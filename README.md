@@ -3,7 +3,8 @@ In vitro transcription from a template DNA by T7 RNA polymerase can synthesize a
 (Original article: Teppei Matsuda, Hiroyuki Hori, and Ryota Yamagami, submitted)
 # Instalation
 ```python
-git 
+$ git clone https://github.com/TEPPEI-MAT/ROCKET.git
+python setup.py develop
 ```
 ## Usage
 
