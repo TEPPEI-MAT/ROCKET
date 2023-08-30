@@ -13,7 +13,7 @@ setup(
         "Programming Language :: Python :: 3 :: Only",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
     ],
-    entry_point={"console_scripts":["ROCKET=main:run"]}
+    entry_points={"console_scripts":["ROCKET=ROCKET.main:run"]},
     install_requires=['Biopython','argparse']
 
 )
