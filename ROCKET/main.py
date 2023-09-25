@@ -38,6 +38,10 @@ parser.add_argument(
 
 args = parser.parse_args()
 
+"""
+The ROCKET is wrote to use on python or IDE such as VScode, jupyternote and Pycharm.
+"""
+
 def ROCKET(seq:str, g=False, c=False, p=False, min_nt:int=7, max_nt:int=100, min_tm:float = 68, max_tm:float = 72):
     if g == True:
         seq = "G" + seq
