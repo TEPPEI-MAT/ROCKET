@@ -6,9 +6,9 @@ setup(
     packages=find_packages(),
     description="Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced in vitro Transcription",
     author="Teppei_Matsuda",
-    author_email="",
-    license="",
-    url="",
+    author_email="teppei.matsuda.lab@gmail.com",
+    license="MIT",
+    url="https://github.com/TEPPEI-MAT/ROCKET",
     classifiers=[
         "Programming Language :: Python :: 3 :: Only",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
