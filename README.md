@@ -7,7 +7,7 @@ $ git clone https://github.com/TEPPEI-MAT/ROCKET.git
 
 $ python setup.py develop
 ```
-Pypy3 environment recomended
+`Pypy3 environment recomended`
 ## Usage
 
 ### Python
