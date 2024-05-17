@@ -2,7 +2,7 @@
 All kinds of RNA molecules can be produced by in vitro transcription using T7 RNA polymerase using DNA templates obtained by solid-phase chemical synthesis, primer extension, PCR, or DNA cloning. The oligonucleotide design, however, is a challenge to nonexperts as this relies on a set of rules that have been established empirically over time. Here, we describe a Python program to facilitate the rational design of oligonucleotides, calculated with kinetic parameters for enhanced in vitro transcription (ROCKET). The Python tool uses thermodynamic parameters, performs folding-energy calculations, and selects oligonucleotides suitable for the polymerase extension reaction. These oligonucleotides improve yields of template DNA. With the oligonucleotides selected by the program, the tRNA transcripts can be prepared by a one-pot reaction of the DNA polymerase extension reaction and the transcription reaction. Also, the ROCKET-selected oligonucleotides provide greater transcription yields than that from oligonucleotides selected by Primerize, a leading software for designing oligonucleotides for in vitro transcription, due to the enhancement of template DNA synthesis. Apart from over 50 tRNA genes tested, an in vitro transcribed self-cleaving ribozyme was found to have catalytic activity. In addition, the program can be applied to the synthesis of mRNA, demonstrating the wide applicability of the ROCKET software.
 (Original article: Matsuda T, Hori H, Yamagami R. Rational design of oligonucleotides for enhanced in vitro transcription of small RNA. RNA. 2024 May 16;30(6):710-727. doi: 10.1261/rna.079923.123. PMID: 38423625.)
 
-### __Cite it if you use!!!__
+### __Cite it if you use !!!__
 
 # Instalation
 ```python
