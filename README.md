@@ -70,5 +70,5 @@ python ROCKET -s GCCGGGGUGGUGUAGCCUGGUUAGCACAGGGGACUGUGGAUCCCCUAGCCCGGGUUCAAAUCC
 python ROCKET -d C:\Users\username\document\folder\data.fasta
 #Completed!!
 ```
-* if you need to add `-1G`, `CCA end` and `precursor`, please use `-g`, `-c` and `-p` respectively.
-* if you need DNA oligonucleotides **longer than 100 oligos** and **less than 7 oligos**, please use `-M` and `-m`.
+* If you need to add `-1G`, `CCA end` and `precursor`, please use `-g`, `-c` and `-p` respectively.
+* If you need DNA oligonucleotides **longer than 100 oligos** and **less than 7 oligos**, please use `-M` and `-m`.
