@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ROCKET',
-    version='1.0',
+    version='1.1',
     packages=find_packages(),
     description="Rational Oligonucleotide design Calculated with Kinetic parameter for Enhanced in vitro Transcription",
     author="Teppei_Matsuda",
