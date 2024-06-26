@@ -353,12 +353,11 @@ def run():
                     #print("Total dG: " + str(max(dG)) + "kcal/mol")
 
                 else:
-                    for i in range(len(d)):
-                        print(">" + "Forward")
-                        print(Primers[top[b[0]]][0])
-                        print(">" + "Reverse")
-                        print(Primers[top[b[0]]][1])
-                        #print("Total dG: " + str(max(dG)) + "kcal/mol")
+                    print(">" + "Forward")
+                    print(Primers[top[b[0]]][0])
+                    print(">" + "Reverse")
+                    print(Primers[top[b[0]]][1])
+                    #print("Total dG: " + str(max(dG)) + "kcal/mol")
 
     else:
         Seq = []
